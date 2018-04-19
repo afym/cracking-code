@@ -10,8 +10,7 @@ public class ArrayAddOne {
      *  input : [1,0,1] output : [1,0,2]
      *  input : [9,9,9] output : [1,0,0,0]
      */
-    public static int[] getResult(int[] input)
-    {
+    public static int[] output(int[] input) {
         int carry = 1;
         int last = input.length - 1;
         int loop = last;
