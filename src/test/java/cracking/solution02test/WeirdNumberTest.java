@@ -15,3 +15,4 @@ public class WeirdNumberTest extends TestCase {
         assertEquals("Weird", WeirdNumbers.output(20));
     }
 }
+
